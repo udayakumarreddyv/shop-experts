@@ -1,0 +1,12 @@
+package com.shopexperts.model;
+
+public enum NotificationType {
+  BOOKING_CONFIRMED,
+  BOOKING_CANCELLED,
+  PAYMENT_SUCCESS,
+  PAYMENT_FAILED,
+  NEW_REVIEW,
+  PROMOTION,
+  SYSTEM_ALERT,
+  REFERRAL_BONUS
+}
